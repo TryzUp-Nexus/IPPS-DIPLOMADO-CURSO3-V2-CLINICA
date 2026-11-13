@@ -149,7 +149,7 @@ npm test
 
 ## Video de demostración
 
-**Video (5–8 minutos):** 
+**Video (5–8 minutos):** https://youtu.be/QMSm2QAPM68
 
 La demostración presenta el funcionamiento de la API en Postman, el registro y login de médicos, el CRUD de pacientes, la seguridad JWT, la regla del médico tratante y los códigos HTTP. También explica las decisiones de diseño y las correcciones realizadas para iniciar el proyecto.
 
