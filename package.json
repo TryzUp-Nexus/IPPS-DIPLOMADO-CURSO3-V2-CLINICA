@@ -1,11 +1,21 @@
 {
-  "name": "clinica",
+  "name": "ipss-clinica-evaluacion-2",
   "version": "1.0.0",
+  "private": true,
+  "description": "Evaluación 2 Módulo 3 - API REST Clínica con Node, Express, MongoDB y JWT",
+  "type": "module",
   "main": "server.js",
-  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js",
+    "check": "node --check server.js"
+  },
+  "engines": { "node": ">=20" },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
     "express": "^5.3.0",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.12.0"
